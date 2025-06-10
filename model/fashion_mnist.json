@@ -1,0 +1,50 @@
+[
+  {
+    "name": "flatten_layer",
+    "type": "Flatten",
+    "config": {},
+    "weights": []
+  },
+  {
+    "name": "dense_1",
+    "type": "Dense",
+    "config": { "activation": "relu" },
+    "weights": [ "dense_1/kernel:0", "dense_1/bias:0" ]
+  },
+  {
+    "name": "dense_2",
+    "type": "Dense",
+    "config": { "activation": "relu" },
+    "weights": [ "dense_2/kernel:0", "dense_2/bias:0" ]
+  },
+  {
+    "name": "dense_3",
+    "type": "Dense",
+    "config": { "activation": "relu" },
+    "weights": [ "dense_3/kernel:0", "dense_3/bias:0" ]
+  },
+  {
+    "name": "dense_4",
+    "type": "Dense",
+    "config": { "activation": "relu" },
+    "weights": [ "dense_4/kernel:0", "dense_4/bias:0" ]
+  },
+  {
+    "name": "dense_5",
+    "type": "Dense",
+    "config": { "activation": "relu" },
+    "weights": [ "dense_5/kernel:0", "dense_5/bias:0" ]
+  },
+  {
+    "name": "dense_6",
+    "type": "Dense",
+    "config": { "activation": "relu" },
+    "weights": [ "dense_6/kernel:0", "dense_6/bias:0" ]
+  },
+  {
+    "name": "output_layer",
+    "type": "Dense",
+    "config": { "activation": "softmax" },
+    "weights": [ "output_layer/kernel:0", "output_layer/bias:0" ]
+  }
+]
